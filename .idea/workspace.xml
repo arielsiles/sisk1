@@ -1,0 +1,2109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYSIS_IN_BACKGROUND" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d918a0a3-72fc-482b-95ab-7c285f38506e" name="Default" comment="v1.7.9.5 Correcciones Asientos Secuencia sftmpenc sftmpdet" />
+    <list id="c1390d32-d74c-4ab2-894a-a0eab5dbc76a" name="discard" comment="" />
+    <ignored path="khipus.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/.idea/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/dist/" />
+    <ignored path="$PROJECT_DIR$/lib/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="khipus" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="financeProviderForm.xhtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/finances/financeProviderForm.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2711" max-vertical-offset="3638">
+              <caret line="184" column="45" selection-start-line="184" selection-start-column="45" selection-end-line="184" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="voucherCreate.xhtml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/view/accounting/voucherCreate.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3063063" vertical-offset="5049" max-vertical-offset="6205">
+              <caret line="307" column="20" selection-start-line="307" selection-start-column="20" selection-end-line="307" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="warehouseVoucherUpdate.xhtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/warehouse/warehouseVoucherUpdate.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="17051">
+              <caret line="57" column="65" selection-start-line="57" selection-start-column="65" selection-end-line="57" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WarehouseVoucherUpdateAction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/action/warehouse/WarehouseVoucherUpdateAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2533" max-vertical-offset="8959">
+              <caret line="149" column="60" selection-start-line="149" selection-start-column="60" selection-end-line="149" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApprovalWarehouseVoucherService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/service/warehouse/ApprovalWarehouseVoucherService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="2363">
+              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApprovalWarehouseVoucherServiceBean.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/service/warehouse/ApprovalWarehouseVoucherServiceBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="17119" max-vertical-offset="25194">
+              <caret line="1007" column="0" selection-start-line="1007" selection-start-column="0" selection-end-line="1007" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Inventory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/model/warehouse/Inventory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="2159">
+              <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BigDecimalUtil.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/util/BigDecimalUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="3910">
+              <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MovementDetail.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/model/warehouse/MovementDetail.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2210" max-vertical-offset="9248">
+              <caret line="130" column="25" selection-start-line="130" selection-start-column="25" selection-end-line="130" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductItem.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/model/warehouse/ProductItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1479" max-vertical-offset="6681">
+              <caret line="87" column="23" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InventoryDetail.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/model/warehouse/InventoryDetail.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3060">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WarehouseAccountEntryService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/service/warehouse/WarehouseAccountEntryService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1207">
+              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WarehouseAccountEntryServiceBean.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/service/warehouse/WarehouseAccountEntryServiceBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="16473" max-vertical-offset="23001">
+              <caret line="969" column="73" selection-start-line="969" selection-start-column="73" selection-end-line="969" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VoucherBuilder.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/util/VoucherBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="2295">
+              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MovementDetailService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/service/warehouse/MovementDetailService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="1105">
+              <caret line="40" column="15" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MovementDetailServiceBean.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/service/warehouse/MovementDetailServiceBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="6256" max-vertical-offset="7106">
+              <caret line="368" column="22" selection-start-line="368" selection-start-column="22" selection-end-line="368" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MovementDetailType.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/model/warehouse/MovementDetailType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="493">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="updateStockModalPanel.xhtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/warehouse/updateStockModalPanel.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="2006">
+              <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="45" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductInventory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/model/warehouse/ProductInventory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3400">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductInventoryAction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/action/warehouse/ProductInventoryAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="3757">
+              <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="ariel.siles@gmail.com" />
+        <option value="Ariel &lt;ariel.siles@gmail.com&gt;" />
+        <option value="ariel.siles@gmail.com1." />
+        <option value="ariel.siles@gmail.compersiste" />
+        <option value="AS" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop_mysql_conta" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/com/encens/khipus/action/warehouse/PartialWarehouseVoucherAction.java" />
+        <option value="$PROJECT_DIR$/src/main/com/encens/khipus/action/warehouse/WarehouseVoucherUpdateAction.java" />
+        <option value="$PROJECT_DIR$/src/main/com/encens/khipus/model/warehouse/ProductItem.java" />
+        <option value="$PROJECT_DIR$/src/main/com/encens/khipus/model/production/ProductionPlanning.java" />
+        <option value="$PROJECT_DIR$/src/main/com/encens/khipus/model/production/BaseProduct.java" />
+        <option value="$PROJECT_DIR$/view/production/productionPlanningList.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/com/encens/khipus/action/warehouse/reports/KardexSumaryReportAction.java" />
+        <option value="$PROJECT_DIR$/view/warehouse/kardexSumaryReport.xhtml" />
+        <option value="$PROJECT_DIR$/view/layout/menu.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/com/encens/khipus/action/warehouse/ProductInventoryDataModel.java" />
+        <option value="$PROJECT_DIR$/src/main/com/encens/khipus/action/purchases/PurchaseDocumentAction.java" />
+        <option value="$PROJECT_DIR$/src/main/com/encens/khipus/action/accounting/VoucherUpdateAction.java" />
+        <option value="$PROJECT_DIR$/view/accounting/voucherList.xhtml" />
+        <option value="$PROJECT_DIR$/view/accounting/simplePurchaseDocument.xhtml" />
+        <option value="$PROJECT_DIR$/view/warehouse/warehousePurchaseOrder.xhtml" />
+        <option value="$PROJECT_DIR$/view/accounting/voucherUpdate.xhtml" />
+        <option value="$PROJECT_DIR$/view/warehouse/productInventoryList.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/com/encens/khipus/action/products/reports/ProductInventoryReportAction.java" />
+        <option value="$PROJECT_DIR$/view/production/productionPlanning.xhtml" />
+        <option value="$PROJECT_DIR$/resources/khipus-dev-ds.xml" />
+        <option value="$PROJECT_DIR$/src/main/com/encens/khipus/action/accounting/reports/MajorAccountingReportAction.java" />
+        <option value="$PROJECT_DIR$/src/main/com/encens/khipus/action/production/reports/RawMaterialPayRollReportAction.java" />
+        <option value="$PROJECT_DIR$/src/main/com/encens/khipus/action/production/ProductionPlanningAction.java" />
+        <option value="$PROJECT_DIR$/build-common.xml" />
+        <option value="$PROJECT_DIR$/src/main/com/encens/khipus/model/finances/Voucher.java" />
+        <option value="$PROJECT_DIR$/src/main/com/encens/khipus/model/finances/VoucherDetail.java" />
+        <option value="$PROJECT_DIR$/resources/messages_app.properties" />
+        <option value="$PROJECT_DIR$/view/accounting/voucherCreate.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/com/encens/khipus/service/warehouse/ApprovalWarehouseVoucherServiceBean.java" />
+        <option value="$PROJECT_DIR$/src/main/com/encens/khipus/service/warehouse/WarehouseAccountEntryServiceBean.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="khipus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.lastSelected" value="preferences.externalResources" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="268" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="297" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="298" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="972" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="290" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="289" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="291" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="965" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.encens.khipus.service.warehouse" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\intellij\khipus\view\production\reports" />
+      <recent name="D:\intellij\khipus\view\production" />
+      <recent name="D:\intellij\khipus\view\accounting\reports" />
+      <recent name="D:\intellij\khipus\view\accounting" />
+      <recent name="D:\intellij\khipus\view\warehouse" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\intellij\khipus\view\customers" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.encens.khipus.action.products.reports" />
+      <recent name="com.encens.khipus.action.production.reports" />
+      <recent name="com.encens.khipus.model.production" />
+      <recent name="com.encens.khipus.action.accounting.reports" />
+      <recent name="com.encens.khipus.action.accounting" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JBoss Server.JBoss5">
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 5.1.0.GA" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/khipus" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="SERVER" value="default" />
+        <option name="BINDING_SET_NAME" value="ports-default" />
+        <option name="USERNAME" value="" />
+        <option name="PASSWORD" value="" />
+      </server-settings>
+      <predefined_log_file id="JBoss" enabled="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49261" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="Make" enabled="false" />
+        <option name="AntTarget" enabled="true" antfile="file://$PROJECT_DIR$/build-common.xml" target="explode" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="JBoss5" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 5.1.0.GA" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/khipus" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Xms512m -Xmx1024m -XX:PermSize=256m -XX:MaxPermSize=512" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="SERVER" value="default" />
+        <option name="BINDING_SET_NAME" value="ports-default" />
+        <option name="USERNAME" value="" />
+        <option name="PASSWORD" value="" />
+      </server-settings>
+      <predefined_log_file id="JBoss" enabled="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49261" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="AntTarget" enabled="false" antfile="file://$PROJECT_DIR$/build-common.xml" target="explode" />
+      </method>
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JBoss Server.JBoss5" />
+    </list>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d918a0a3-72fc-482b-95ab-7c285f38506e" name="Default" comment="" />
+      <changelist id="c1390d32-d74c-4ab2-894a-a0eab5dbc76a" name="discard" comment="" />
+      <created>1419795782224</created>
+      <updated>1419795782224</updated>
+      <workItem from="1419795783489" duration="515000" />
+      <workItem from="1419796396091" duration="610000" />
+      <workItem from="1419812051887" duration="3057000" />
+      <workItem from="1419815148534" duration="3291000" />
+      <workItem from="1419889608374" duration="5798000" />
+      <workItem from="1419904474532" duration="17798000" />
+      <workItem from="1419943160334" duration="2125000" />
+      <workItem from="1419949170131" duration="4424000" />
+      <workItem from="1419967374735" duration="727000" />
+      <workItem from="1419976059923" duration="3815000" />
+      <workItem from="1419997814547" duration="3743000" />
+      <workItem from="1420461266943" duration="60000" />
+      <workItem from="1421019006649" duration="547000" />
+      <workItem from="1421026195852" duration="14766000" />
+      <workItem from="1421064445280" duration="9038000" />
+      <workItem from="1421085435181" duration="881000" />
+      <workItem from="1421101727442" duration="280000" />
+      <workItem from="1421149747994" duration="1629000" />
+      <workItem from="1421152691404" duration="5817000" />
+      <workItem from="1421172733732" duration="827000" />
+      <workItem from="1421354487852" duration="893000" />
+      <workItem from="1421358737064" duration="1855000" />
+      <workItem from="1421380836162" duration="6053000" />
+      <workItem from="1421416614601" duration="17314000" />
+      <workItem from="1421839694276" duration="624000" />
+      <workItem from="1421856342094" duration="922000" />
+      <workItem from="1422366880489" duration="1335000" />
+      <workItem from="1422458866747" duration="4215000" />
+      <workItem from="1422538703571" duration="10449000" />
+      <workItem from="1422585374443" duration="527000" />
+      <workItem from="1422619252294" duration="2912000" />
+      <workItem from="1422671056645" duration="5899000" />
+      <workItem from="1422853107016" duration="430000" />
+      <workItem from="1423148643196" duration="5427000" />
+      <workItem from="1423169956827" duration="8321000" />
+      <workItem from="1423767367645" duration="11222000" />
+      <workItem from="1424061525141" duration="1276000" />
+      <workItem from="1424098317496" duration="1863000" />
+      <workItem from="1424223452846" duration="716000" />
+      <workItem from="1424296896673" duration="815000" />
+      <workItem from="1424347727091" duration="1975000" />
+      <workItem from="1424816633613" duration="1457000" />
+      <workItem from="1425528879480" duration="1070000" />
+      <workItem from="1425564486170" duration="980000" />
+      <workItem from="1425584381828" duration="641000" />
+      <workItem from="1425698845741" duration="8509000" />
+      <workItem from="1425857816339" duration="5438000" />
+      <workItem from="1426372407537" duration="5352000" />
+      <workItem from="1426534211586" duration="1243000" />
+      <workItem from="1426651650640" duration="2484000" />
+      <workItem from="1426710501200" duration="5476000" />
+      <workItem from="1426723740858" duration="772000" />
+      <workItem from="1426737457840" duration="3945000" />
+      <workItem from="1426801261108" duration="3036000" />
+      <workItem from="1426807022412" duration="8987000" />
+      <workItem from="1426854006363" duration="5563000" />
+      <workItem from="1426916130792" duration="2979000" />
+      <workItem from="1426934431129" duration="747000" />
+      <workItem from="1426944051034" duration="2101000" />
+      <workItem from="1426970314977" duration="1223000" />
+      <workItem from="1427054566135" duration="4022000" />
+      <workItem from="1427222201606" duration="2040000" />
+      <workItem from="1427304593381" duration="2607000" />
+      <workItem from="1427337204976" duration="3804000" />
+      <workItem from="1427424216485" duration="31000" />
+      <workItem from="1427424292827" duration="10073000" />
+      <workItem from="1427463270029" duration="1739000" />
+      <workItem from="1427549456691" duration="2143000" />
+      <workItem from="1427552858624" duration="7616000" />
+      <workItem from="1427565903360" duration="37806000" />
+      <workItem from="1427637403000" duration="5679000" />
+      <workItem from="1427664722720" duration="35440000" />
+      <workItem from="1427743571916" duration="1127000" />
+      <workItem from="1427829021904" duration="4170000" />
+      <workItem from="1427837086810" duration="1345000" />
+      <workItem from="1427838945946" duration="1887000" />
+      <workItem from="1428117878125" duration="12099000" />
+      <workItem from="1428196138980" duration="12399000" />
+      <workItem from="1428250654805" duration="21553000" />
+      <workItem from="1428293534829" duration="667000" />
+      <workItem from="1428332596484" duration="3292000" />
+      <workItem from="1428362395714" duration="4749000" />
+      <workItem from="1428766824795" duration="30869000" />
+      <workItem from="1428849961561" duration="259000" />
+      <workItem from="1428850308820" duration="2142000" />
+      <workItem from="1428888440384" duration="726000" />
+      <workItem from="1428889198922" duration="4582000" />
+      <workItem from="1428939010389" duration="1042000" />
+      <workItem from="1428974870219" duration="16029000" />
+      <workItem from="1429020619428" duration="2285000" />
+      <workItem from="1429068659506" duration="7041000" />
+      <workItem from="1429107607754" duration="10048000" />
+      <workItem from="1429147444181" duration="5863000" />
+      <workItem from="1429230207351" duration="14750000" />
+      <workItem from="1429281841499" duration="8114000" />
+      <workItem from="1429371253242" duration="5221000" />
+      <workItem from="1429536039594" duration="1009000" />
+      <workItem from="1429713843618" duration="1993000" />
+      <workItem from="1429796112108" duration="3415000" />
+      <workItem from="1429851760775" duration="518000" />
+      <workItem from="1429921728366" duration="2647000" />
+      <workItem from="1430767454598" duration="4868000" />
+      <workItem from="1430786353656" duration="2244000" />
+      <workItem from="1430875338887" duration="19871000" />
+      <workItem from="1430913908082" duration="8579000" />
+      <workItem from="1430951209697" duration="849000" />
+      <workItem from="1430964797620" duration="8455000" />
+      <workItem from="1431006941964" duration="1679000" />
+      <workItem from="1431053779938" duration="914000" />
+      <workItem from="1431054986323" duration="34000" />
+      <workItem from="1431092254217" duration="1122000" />
+      <workItem from="1431113231411" duration="818000" />
+      <workItem from="1431133367684" duration="2877000" />
+      <workItem from="1431234367897" duration="311000" />
+      <workItem from="1431275556709" duration="696000" />
+      <workItem from="1431308264563" duration="986000" />
+      <workItem from="1431354769875" duration="3131000" />
+      <workItem from="1431393781769" duration="3581000" />
+      <workItem from="1431653282213" duration="1809000" />
+      <workItem from="1431707372891" duration="927000" />
+      <workItem from="1431743967725" duration="2716000" />
+      <workItem from="1431956358839" duration="2139000" />
+      <workItem from="1432049530533" duration="5841000" />
+      <workItem from="1432149181690" duration="2611000" />
+      <workItem from="1432303332023" duration="3596000" />
+      <workItem from="1432326833437" duration="4264000" />
+      <workItem from="1432432985237" duration="383000" />
+      <workItem from="1432433588885" duration="4940000" />
+      <workItem from="1432440314287" duration="532000" />
+      <workItem from="1432442926048" duration="327000" />
+      <workItem from="1432443514638" duration="158000" />
+      <workItem from="1432494020663" duration="5039000" />
+      <workItem from="1432521487732" duration="6053000" />
+      <workItem from="1432592324687" duration="923000" />
+      <workItem from="1432606039799" duration="4546000" />
+      <workItem from="1432759142380" duration="7088000" />
+      <workItem from="1432866815548" duration="3376000" />
+      <workItem from="1432870402027" duration="1876000" />
+      <workItem from="1432905637942" duration="9585000" />
+      <workItem from="1432926231686" duration="23582000" />
+      <workItem from="1433423590629" duration="4570000" />
+      <workItem from="1434069897037" duration="14569000" />
+      <workItem from="1434085165253" duration="3521000" />
+      <workItem from="1434144997863" duration="64000" />
+      <workItem from="1434145130138" duration="1367000" />
+      <workItem from="1434156728667" duration="1406000" />
+      <workItem from="1434158225770" duration="19690000" />
+      <workItem from="1434383930236" duration="1709000" />
+      <workItem from="1434400817623" duration="8679000" />
+      <workItem from="1434465977820" duration="2330000" />
+      <workItem from="1434486494932" duration="5977000" />
+      <workItem from="1434516081720" duration="988000" />
+      <workItem from="1434548860406" duration="16215000" />
+      <workItem from="1434643759930" duration="1085000" />
+      <workItem from="1434657481335" duration="6329000" />
+      <workItem from="1434684494021" duration="3421000" />
+      <workItem from="1434750108094" duration="1166000" />
+      <workItem from="1434769884591" duration="10600000" />
+      <workItem from="1434817905345" duration="8504000" />
+      <workItem from="1434982938764" duration="1205000" />
+      <workItem from="1435023448738" duration="24000" />
+      <workItem from="1435023516298" duration="111000" />
+      <workItem from="1435023643387" duration="3733000" />
+      <workItem from="1435083075471" duration="2705000" />
+      <workItem from="1435115922626" duration="8907000" />
+      <workItem from="1435203307581" duration="3166000" />
+      <workItem from="1435282642672" duration="7763000" />
+      <workItem from="1435630902889" duration="7906000" />
+      <workItem from="1435718587603" duration="5622000" />
+      <workItem from="1435756047747" duration="7615000" />
+      <workItem from="1435845628814" duration="20178000" />
+      <workItem from="1436386141389" duration="17554000" />
+      <workItem from="1436449964727" duration="22799000" />
+      <workItem from="1436803329103" duration="16644000" />
+      <workItem from="1436892460813" duration="1450000" />
+      <workItem from="1436925892657" duration="2905000" />
+      <workItem from="1436968657430" duration="5336000" />
+      <workItem from="1437576834040" duration="7048000" />
+      <workItem from="1437686071271" duration="1705000" />
+      <workItem from="1438116593484" duration="1953000" />
+      <workItem from="1438267890652" duration="1273000" />
+      <workItem from="1438282668315" duration="5285000" />
+      <workItem from="1438349536486" duration="54596000" />
+      <workItem from="1440027820375" duration="10608000" />
+      <workItem from="1440074996191" duration="13482000" />
+      <workItem from="1440287391197" duration="7084000" />
+      <workItem from="1441146947595" duration="26267000" />
+      <workItem from="1441226679778" duration="9342000" />
+      <workItem from="1441244884522" duration="3340000" />
+      <workItem from="1441289847893" duration="32005000" />
+      <workItem from="1441371116383" duration="6630000" />
+      <workItem from="1441899233958" duration="1564000" />
+      <workItem from="1442241886655" duration="33270000" />
+      <workItem from="1442499529150" duration="15297000" />
+      <workItem from="1442583169863" duration="12892000" />
+      <workItem from="1442948689957" duration="1963000" />
+      <workItem from="1442952846123" duration="3592000" />
+      <workItem from="1442980663609" duration="1609000" />
+      <workItem from="1443012441251" duration="30429000" />
+      <workItem from="1443099388540" duration="4721000" />
+      <workItem from="1443104787830" duration="62808000" />
+      <workItem from="1443738963743" duration="1565000" />
+      <workItem from="1443825382628" duration="2695000" />
+      <workItem from="1444056172170" duration="5463000" />
+      <workItem from="1444215337129" duration="16000" />
+      <workItem from="1444222940418" duration="17072000" />
+      <workItem from="1444356304408" duration="9088000" />
+      <workItem from="1444397645608" duration="608000" />
+      <workItem from="1444428627512" duration="4728000" />
+      <workItem from="1444481578451" duration="23512000" />
+      <workItem from="1444567168594" duration="4750000" />
+      <workItem from="1444650743218" duration="946000" />
+      <workItem from="1444652421142" duration="40000" />
+      <workItem from="1444664622013" duration="6104000" />
+      <workItem from="1444676324031" duration="13266000" />
+      <workItem from="1444738360782" duration="7002000" />
+      <workItem from="1444751531666" duration="1296000" />
+      <workItem from="1445020776534" duration="940000" />
+      <workItem from="1445258990281" duration="5240000" />
+      <workItem from="1445350637874" duration="5193000" />
+      <workItem from="1445379086618" duration="50381000" />
+      <workItem from="1445513156169" duration="17419000" />
+      <workItem from="1445611757870" duration="19604000" />
+      <workItem from="1445643697807" duration="11431000" />
+      <workItem from="1445720886646" duration="6993000" />
+      <workItem from="1445790357141" duration="1787000" />
+      <workItem from="1445824211610" duration="36069000" />
+      <workItem from="1445954044571" duration="9214000" />
+      <workItem from="1445984431383" duration="11371000" />
+      <workItem from="1446037056913" duration="7251000" />
+      <workItem from="1446212311336" duration="15304000" />
+      <workItem from="1446308531281" duration="592000" />
+      <workItem from="1446392508227" duration="29972000" />
+      <workItem from="1446561699130" duration="24014000" />
+      <workItem from="1446635685770" duration="8352000" />
+      <workItem from="1446811365569" duration="2528000" />
+      <workItem from="1446902556689" duration="4533000" />
+      <workItem from="1447072325785" duration="22642000" />
+      <workItem from="1447158219189" duration="24285000" />
+      <workItem from="1447245587041" duration="27930000" />
+      <workItem from="1447362175706" duration="73000" />
+      <workItem from="1447365948864" duration="64155000" />
+      <workItem from="1447882232100" duration="1888000" />
+      <workItem from="1447993201226" duration="1619000" />
+      <workItem from="1448023629193" duration="14531000" />
+      <workItem from="1448105306818" duration="4184000" />
+      <workItem from="1448233575171" duration="9431000" />
+      <workItem from="1448337196108" duration="8341000" />
+      <workItem from="1448496442234" duration="17471000" />
+      <workItem from="1448716434962" duration="592000" />
+      <workItem from="1448842504149" duration="31059000" />
+      <workItem from="1449193432804" duration="4136000" />
+      <workItem from="1449485976018" duration="1265000" />
+      <workItem from="1449584918750" duration="13892000" />
+      <workItem from="1449690583862" duration="23515000" />
+      <workItem from="1449837710209" duration="10012000" />
+      <workItem from="1450059572034" duration="9477000" />
+      <workItem from="1450202579149" duration="18488000" />
+      <workItem from="1450291126508" duration="7896000" />
+      <workItem from="1450385873367" duration="1801000" />
+      <workItem from="1450478258747" duration="2042000" />
+      <workItem from="1450530452631" duration="10827000" />
+      <workItem from="1450673243162" duration="1215000" />
+      <workItem from="1450884539378" duration="44000" />
+      <workItem from="1450884665387" duration="2673000" />
+      <workItem from="1451002430238" duration="12663000" />
+      <workItem from="1451278935039" duration="996000" />
+      <workItem from="1451405300781" duration="14937000" />
+      <workItem from="1451861703098" duration="947000" />
+      <workItem from="1452118850376" duration="4300000" />
+      <workItem from="1452173645361" duration="2151000" />
+      <workItem from="1452197623776" duration="1394000" />
+      <workItem from="1452205918889" duration="677000" />
+      <workItem from="1452482552194" duration="1569000" />
+      <workItem from="1452536689750" duration="8731000" />
+      <workItem from="1452712327383" duration="32878000" />
+      <workItem from="1453090354579" duration="10192000" />
+      <workItem from="1453642824605" duration="41376000" />
+      <workItem from="1454095211475" duration="137000" />
+      <workItem from="1454095563451" duration="58759000" />
+      <workItem from="1454537385662" duration="7703000" />
+      <workItem from="1454589386051" duration="333000" />
+      <workItem from="1454589735201" duration="11339000" />
+      <workItem from="1454611648091" duration="2565000" />
+      <workItem from="1454673282483" duration="7432000" />
+      <workItem from="1454762518536" duration="4457000" />
+      <workItem from="1455235114099" duration="3377000" />
+      <workItem from="1455563885901" duration="12850000" />
+      <workItem from="1455773773343" duration="9283000" />
+      <workItem from="1455822906191" duration="257000" />
+      <workItem from="1455890614871" duration="2334000" />
+      <workItem from="1456286185250" duration="876000" />
+      <workItem from="1456343039411" duration="45991000" />
+      <workItem from="1457719489181" duration="2730000" />
+      <workItem from="1459274557083" duration="3389000" />
+      <workItem from="1459286145664" duration="19295000" />
+      <workItem from="1460505563037" duration="9998000" />
+      <workItem from="1460591970007" duration="72000" />
+    </task>
+    <task id="LOCAL-00010" summary="change price milk 3.5">
+      <created>1422570200925</created>
+      <updated>1422570200925</updated>
+    </task>
+    <task id="LOCAL-00011" summary="develop with mysql">
+      <created>1423769435802</created>
+      <updated>1423769435802</updated>
+    </task>
+    <task id="LOCAL-00012" summary="delete permission">
+      <created>1423769710257</created>
+      <updated>1423769710257</updated>
+    </task>
+    <task id="LOCAL-00013" summary="delete permission">
+      <created>1424297037731</created>
+      <updated>1424297037731</updated>
+    </task>
+    <task id="LOCAL-00014" summary="1.5.9.8 planilla acopio 3.50 bs">
+      <created>1424349404482</created>
+      <updated>1424349404482</updated>
+    </task>
+    <task id="LOCAL-00015" summary="persistence">
+      <created>1425565385167</created>
+      <updated>1425565385167</updated>
+    </task>
+    <task id="LOCAL-00016" summary="iml">
+      <created>1425565460697</created>
+      <updated>1425565460697</updated>
+    </task>
+    <task id="LOCAL-00017" summary="1.5.9.9">
+      <created>1425708479784</created>
+      <updated>1425708479784</updated>
+    </task>
+    <task id="LOCAL-00018" summary="1.6.0 Register Mark, Total Milk">
+      <created>1426653743125</created>
+      <updated>1426653743125</updated>
+    </task>
+    <task id="LOCAL-00019" summary="1.6.1 jobContract">
+      <created>1426935027237</created>
+      <updated>1426935027237</updated>
+    </task>
+    <task id="LOCAL-00020" summary="1.6.1 jobContract">
+      <created>1426945453253</created>
+      <updated>1426945453253</updated>
+    </task>
+    <task id="LOCAL-00021" summary="OrderInput, change amountStock true">
+      <created>1427464302332</created>
+      <updated>1427464302332</updated>
+    </task>
+    <task id="LOCAL-00022" summary="1.6.2 OrderInput, change amountStock true">
+      <created>1427464441807</created>
+      <updated>1427464441807</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Changes to MySql">
+      <created>1427641733594</created>
+      <updated>1427641733594</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Changes to MySql Resumen acopio">
+      <created>1427689409630</created>
+      <updated>1427689409630</updated>
+    </task>
+    <task id="LOCAL-00025" summary="v2.0 Changes to MySql">
+      <created>1427723006380</created>
+      <updated>1427723006381</updated>
+    </task>
+    <task id="LOCAL-00026" summary="v2.0 Changes to MySql">
+      <created>1427732393325</created>
+      <updated>1427732393325</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Changes to MySql, IndirectCosts">
+      <created>1428293734154</created>
+      <updated>1428293734154</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Changes buttons production planning">
+      <created>1428767798695</created>
+      <updated>1428767798695</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Changes Testing Reception Vales">
+      <created>1428892699006</created>
+      <updated>1428892699006</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Approve VALE and accounting">
+      <created>1429113491737</created>
+      <updated>1429113491737</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Contabilizar Ordenes de Produccion">
+      <created>1429156698594</created>
+      <updated>1429156698594</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Updates INV_">
+      <created>1429805113351</created>
+      <updated>1429805113351</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Planilla Reserva Productores">
+      <created>1430794463115</created>
+      <updated>1430794463115</updated>
+    </task>
+    <task id="LOCAL-00034" summary="1.7 Release MySql">
+      <created>1430975930942</created>
+      <updated>1430975930942</updated>
+    </task>
+    <task id="LOCAL-00035" summary="1.7 Release MySql">
+      <created>1430976137562</created>
+      <updated>1430976137562</updated>
+    </task>
+    <task id="LOCAL-00036" summary="1.7.0 Release MySql">
+      <created>1430976654035</created>
+      <updated>1430976654035</updated>
+    </task>
+    <task id="LOCAL-00037" summary="v1.7.1 Correct Yogurt Base">
+      <created>1431144621764</created>
+      <updated>1431144621764</updated>
+    </task>
+    <task id="LOCAL-00038" summary="v1.7.1 Database 10-05-2015 12:45">
+      <created>1431276354508</created>
+      <updated>1431276354508</updated>
+    </task>
+    <task id="LOCAL-00039" summary="v1.7.2 Correción Modificar insumos Ilfrut (Yogurt Base)">
+      <created>1431405409376</created>
+      <updated>1431405409376</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Accounting 1.0">
+      <created>1433424980579</created>
+      <updated>1433424980579</updated>
+    </task>
+    <task id="LOCAL-00041" summary="1.7.3 correccion planilla acopio cantidades">
+      <created>1433434481007</created>
+      <updated>1433434481007</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Changes Accounting">
+      <created>1434420403670</created>
+      <updated>1434420403670</updated>
+    </task>
+    <task id="LOCAL-00043" summary="v1.7.4 Release Boleta de Pago Productores">
+      <created>1434470926139</created>
+      <updated>1434470926139</updated>
+    </task>
+    <task id="LOCAL-00044" summary="v1.7.5 Release Boleta de Pago Productores Final">
+      <created>1434602676491</created>
+      <updated>1434602676491</updated>
+    </task>
+    <task id="LOCAL-00045" summary="v1.7.6 Release Boleta de Pago correcciones">
+      <created>1434662561589</created>
+      <updated>1434662561589</updated>
+    </task>
+    <task id="LOCAL-00046" summary="v1.7.7 View Accounting Entries">
+      <created>1434689479948</created>
+      <updated>1434689479948</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Cambios Proveedores OC">
+      <created>1435083272006</created>
+      <updated>1435083272006</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Cambios Proveedores OC">
+      <created>1435083768208</created>
+      <updated>1435083768208</updated>
+    </task>
+    <task id="LOCAL-00049" summary="v1.7.8 Cambios Proveedores OC">
+      <created>1435089944119</created>
+      <updated>1435089944119</updated>
+    </task>
+    <task id="LOCAL-00050" summary="v1.7.9 Correcciones Ordenes Compra, Asientos">
+      <created>1435859623425</created>
+      <updated>1435859623426</updated>
+    </task>
+    <task id="LOCAL-00051" summary="v1.7.9.1 Correccion Reporte Productos Producidos">
+      <created>1435892733608</created>
+      <updated>1435892733608</updated>
+    </task>
+    <task id="LOCAL-00052" summary="v1.7.9.2 Correcciones SF_TMP (Voucher, VoucherDetail)">
+      <created>1436415445118</created>
+      <updated>1436415445118</updated>
+    </task>
+    <task id="LOCAL-00053" summary="v1.7.9.2 Correcciones SF_TMP (Voucher, VoucherDetail)">
+      <created>1436416012085</created>
+      <updated>1436416012085</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Contabilidad, Asientos Independientes">
+      <created>1436820924726</created>
+      <updated>1436820924726</updated>
+    </task>
+    <task id="LOCAL-00055" summary="v1.7.9.3 Correcciones, Entrega de Pedidos">
+      <created>1436847707664</created>
+      <updated>1436847707664</updated>
+    </task>
+    <task id="LOCAL-00056" summary="v1.7.9.4 Correcciones entregas de articulos">
+      <created>1436977617335</created>
+      <updated>1436977617335</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Correcciones Asientos Secuencia sftmpenc sftmpdet">
+      <created>1439922478930</created>
+      <updated>1439922478930</updated>
+    </task>
+    <task id="LOCAL-00058" summary="v1.7.9.5 Correcciones Asientos Secuencia sftmpenc sftmpdet">
+      <created>1439935024600</created>
+      <updated>1439935024600</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2309955000" />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39243242" sideWeight="0.50159913" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31135136" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942432" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1988273" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15778251" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3416216" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2918919" sideWeight="0.50319827" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41405407" sideWeight="0.49840087" order="5" side_tool="false" content_ui="tabs" x="22" y="337" width="1876" height="366" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3027027" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="21" y="375" width="1878" height="289" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32324323" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1673774" sideWeight="0.50159746" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12953092" sideWeight="0.4968051" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15495208" sideWeight="0.50054055" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Seam" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="EJB" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23081024" sideWeight="0.5024958" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19567567" sideWeight="0.49946696" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29297298" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39273927" sideWeight="0.50107527" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31135136" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942432" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1988273" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15831557" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3416216" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2918919" sideWeight="0.50319827" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19567567" sideWeight="0.49946696" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4010811" sideWeight="0.49892473" order="5" side_tool="false" content_ui="tabs" x="22" y="337" width="1876" height="366" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3027027" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="21" y="375" width="1878" height="289" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32324323" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1673774" sideWeight="0.50159746" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23507462" sideWeight="0.4968051" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15495208" sideWeight="0.50054055" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43243244" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Seam" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="EJB" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23081024" sideWeight="0.5024958" order="3" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="Contabilizar Ordenes de Produccion" />
+    <MESSAGE value="Updates INV_" />
+    <MESSAGE value="Planilla Reserva Productores" />
+    <MESSAGE value="1.7 Release MySql" />
+    <MESSAGE value="1.7.0 Release MySql" />
+    <MESSAGE value="v1.7.1 Correct Yogurt Base" />
+    <MESSAGE value="v1.7.1 Database 10-05-2015 12:45" />
+    <MESSAGE value="v1.7.2 Correción Modificar insumos Ilfrut (Yogurt Base)" />
+    <MESSAGE value="Accounting 1.0" />
+    <MESSAGE value="1.7.3 correccion planilla acopio cantidades" />
+    <MESSAGE value="Changes Accounting" />
+    <MESSAGE value="v1.7.4 Release Boleta de Pago Productores" />
+    <MESSAGE value="v1.7.5 Release Boleta de Pago Productores Final" />
+    <MESSAGE value="v1.7.6 Release Boleta de Pago correcciones" />
+    <MESSAGE value="v1.7.7 View Accounting Entries" />
+    <MESSAGE value="Cambios Proveedores OC" />
+    <MESSAGE value="v1.7.8 Cambios Proveedores OC" />
+    <MESSAGE value="v1.7.9 Correcciones Ordenes Compra, Asientos" />
+    <MESSAGE value="v1.7.9.1 Correccion Reporte Productos Producidos" />
+    <MESSAGE value="v1.7.9.2 Correcciones SF_TMP (Voucher, VoucherDetail)" />
+    <MESSAGE value="Contabilidad, Asientos Independientes" />
+    <MESSAGE value="v1.7.9.3 Correcciones, Entrega de Pedidos" />
+    <MESSAGE value="v1.7.9.4 Correcciones entregas de articulos" />
+    <MESSAGE value="Correcciones Asientos Secuencia sftmpenc sftmpdet" />
+    <MESSAGE value="v1.7.9.5 Correcciones Asientos Secuencia sftmpenc sftmpdet" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.7.9.5 Correcciones Asientos Secuencia sftmpenc sftmpdet" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/com/encens/khipus/service/warehouse/WarehousePurchaseOrderServiceBean.java</url>
+          <line>557</line>
+          <properties />
+          <option name="timeStamp" value="718" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/com/encens/khipus/service/warehouse/WarehousePurchaseOrderServiceBean.java</url>
+          <line>510</line>
+          <properties />
+          <option name="timeStamp" value="719" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/com/encens/khipus/service/warehouse/WarehouseAccountEntryServiceBean.java</url>
+          <line>518</line>
+          <properties />
+          <option name="timeStamp" value="720" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/com/encens/khipus/action/warehouse/PartialWarehouseVoucherAction.java</url>
+          <line>97</line>
+          <properties />
+          <option name="timeStamp" value="721" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/com/encens/khipus/service/warehouse/WarehouseServiceBean.java</url>
+          <line>119</line>
+          <properties />
+          <option name="timeStamp" value="722" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint type="java-exception">
+          <dependency master-id="0" />
+          <properties>
+            <option name="NOTIFY_CAUGHT" value="false" />
+          </properties>
+        </breakpoint>
+        <breakpoint type="javascript-exception">
+          <dependency id="0" />
+          <properties />
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="723" />
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="khipus" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="khipus" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="true" />
+    <buildFile url="file://$PROJECT_DIR$/build.xml">
+      <targetFilters>
+        <filter targetName="init" isVisible="true" />
+        <filter targetName="init-rebel" isVisible="false" />
+        <filter targetName="compile" isVisible="true" />
+        <filter targetName="copyclasses" isVisible="true" />
+        <filter targetName="jar" isVisible="true" />
+        <filter targetName="war" isVisible="true" />
+        <filter targetName="war-applet" isVisible="true" />
+        <filter targetName="ear" isVisible="true" />
+        <filter targetName="clear-profile-artifacts" isVisible="true" />
+        <filter targetName="stage" isVisible="false" />
+        <filter targetName="archive" isVisible="true" />
+        <filter targetName="datasource" isVisible="false" />
+        <filter targetName="explode" isVisible="true" />
+        <filter targetName="unexplode" isVisible="true" />
+        <filter targetName="reexplode" isVisible="true" />
+        <filter targetName="check-deployed" isVisible="true" />
+        <filter targetName="restart-exploded" isVisible="true" />
+        <filter targetName="restart-deployed" isVisible="true" />
+        <filter targetName="restart" isVisible="true" />
+        <filter targetName="deploy" isVisible="true" />
+        <filter targetName="undeploy" isVisible="true" />
+        <filter targetName="redeploy" isVisible="true" />
+        <filter targetName="clean" isVisible="true" />
+        <filter targetName="compiletest" isVisible="true" />
+        <filter targetName="copytestclasses" isVisible="true" />
+        <filter targetName="buildtest" isVisible="true" />
+        <filter targetName="test" isVisible="true" />
+        <filter targetName="javadoc" isVisible="false" />
+        <filter targetName="validateConfiguration" isVisible="false" />
+        <filter targetName="validate" isVisible="true" />
+        <filter targetName="purge" isVisible="true" />
+      </targetFilters>
+      <expanded value="true" />
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/build-prod.xml">
+      <targetFilters>
+        <filter targetName="dist" isVisible="true" />
+        <filter targetName="replacejava" isVisible="true" />
+        <filter targetName="replaceview" isVisible="true" />
+        <filter targetName="init" isVisible="true" />
+        <filter targetName="init-rebel" isVisible="false" />
+        <filter targetName="compile" isVisible="true" />
+        <filter targetName="copyclasses" isVisible="true" />
+        <filter targetName="jar" isVisible="true" />
+        <filter targetName="war" isVisible="true" />
+        <filter targetName="war-applet" isVisible="true" />
+        <filter targetName="ear" isVisible="true" />
+        <filter targetName="clear-profile-artifacts" isVisible="true" />
+        <filter targetName="stage" isVisible="false" />
+        <filter targetName="archive" isVisible="true" />
+        <filter targetName="datasource" isVisible="false" />
+        <filter targetName="explode" isVisible="true" />
+        <filter targetName="unexplode" isVisible="true" />
+        <filter targetName="reexplode" isVisible="true" />
+        <filter targetName="check-deployed" isVisible="true" />
+        <filter targetName="restart-exploded" isVisible="true" />
+        <filter targetName="restart-deployed" isVisible="true" />
+        <filter targetName="restart" isVisible="true" />
+        <filter targetName="deploy" isVisible="true" />
+        <filter targetName="undeploy" isVisible="true" />
+        <filter targetName="redeploy" isVisible="true" />
+        <filter targetName="clean" isVisible="true" />
+        <filter targetName="compiletest" isVisible="true" />
+        <filter targetName="copytestclasses" isVisible="true" />
+        <filter targetName="buildtest" isVisible="true" />
+        <filter targetName="test" isVisible="true" />
+        <filter targetName="javadoc" isVisible="false" />
+        <filter targetName="validateConfiguration" isVisible="false" />
+        <filter targetName="validate" isVisible="true" />
+        <filter targetName="purge" isVisible="true" />
+      </targetFilters>
+      <expanded value="false" />
+    </buildFile>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/model/purchases/PurchaseDocument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="470" max-vertical-offset="2805">
+          <caret line="59" column="32" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/production/reports/rawMaterialPayRollReport.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="2397">
+          <caret line="109" column="84" selection-start-line="109" selection-start-column="70" selection-end-line="109" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/service/accouting/VoucherAccoutingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/jasperreports-3.7.4.jar!/net/sf/jasperreports/engine/JasperPrint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3489796" vertical-offset="2617" max-vertical-offset="3587">
+          <caret line="165" column="26" selection-start-line="165" selection-start-column="26" selection-end-line="165" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/service/common/GenericReportServiceBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4763" max-vertical-offset="5457">
+          <caret line="312" column="0" selection-start-line="312" selection-start-column="0" selection-end-line="312" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/action/reports/GenericReportAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12948208" vertical-offset="4525" max-vertical-offset="9911">
+          <caret line="299" column="27" selection-start-line="299" selection-start-column="27" selection-end-line="299" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/accounting/voucherUpdate.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1965" max-vertical-offset="7701">
+          <caret line="133" column="51" selection-start-line="133" selection-start-column="51" selection-end-line="133" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/model/production/Periodo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1394">
+          <caret line="54" column="24" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/action/production/reports/RawMaterialPayRollReportAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="7376" max-vertical-offset="12189">
+          <caret line="523" column="28" selection-start-line="523" selection-start-column="28" selection-end-line="523" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/action/production/ProductionPlanningAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="44859" max-vertical-offset="66827">
+          <caret line="2741" column="56" selection-start-line="2741" selection-start-column="56" selection-end-line="2741" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build-common.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="8534">
+          <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/khipus-dev-ds.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="663">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/service/purchases/GlossGeneratorServiceBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="1122">
+          <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/util/SessionUserUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="47" max-vertical-offset="612">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/model/production/RawMaterialPayRoll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3060" max-vertical-offset="7548">
+          <caret line="207" column="31" selection-start-line="207" selection-start-column="31" selection-end-line="207" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/model/admin/BusinessUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1813" max-vertical-offset="2924">
+          <caret line="152" column="18" selection-start-line="152" selection-start-column="18" selection-end-line="152" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/model/contacts/Organization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="79" max-vertical-offset="850">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/action/AuthenticatorAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="385" max-vertical-offset="1700">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query/khipus-1.8.0.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.23556583" vertical-offset="102" max-vertical-offset="2295">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query/khipus-1.7.9.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query/khipus-1.7.9.2.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5860058" vertical-offset="201" max-vertical-offset="544">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/model/admin/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1490" max-vertical-offset="2992">
+          <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/model/customers/ClientePedido.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="28" max-vertical-offset="2550">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/model/customers/CustomerOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1218" max-vertical-offset="3196">
+          <caret line="86" column="4" selection-start-line="86" selection-start-column="4" selection-end-line="88" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/model/finances/Provider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="91" max-vertical-offset="2142">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/model/finances/Voucher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4645" max-vertical-offset="6800">
+          <caret line="367" column="28" selection-start-line="367" selection-start-column="28" selection-end-line="367" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/warehouse/provider.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="472" max-vertical-offset="2754">
+          <caret line="56" column="62" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/messages_app.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6113" max-vertical-offset="148087">
+          <caret line="391" column="17" selection-start-line="391" selection-start-column="0" selection-end-line="391" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/model/finances/CashAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4399" max-vertical-offset="5593">
+          <caret line="162" column="18" selection-start-line="162" selection-start-column="18" selection-end-line="162" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/warehouse/productInventoryList.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2059" max-vertical-offset="2907">
+          <caret line="155" column="98" selection-start-line="155" selection-start-column="77" selection-end-line="155" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/action/warehouse/ProductInventoryAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2754">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/finances/financeProviderForm.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2711" max-vertical-offset="3638">
+          <caret line="184" column="45" selection-start-line="184" selection-start-column="45" selection-end-line="184" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/model/warehouse/ProductInventory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2550">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/warehouse/updateStockModalPanel.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="2006">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="45" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/warehouse/warehouseVoucherUpdate.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="17051">
+          <caret line="57" column="65" selection-start-line="57" selection-start-column="65" selection-end-line="57" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/action/warehouse/WarehouseVoucherUpdateAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1761" max-vertical-offset="8364">
+          <caret line="149" column="60" selection-start-line="149" selection-start-column="60" selection-end-line="149" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/model/warehouse/MovementDetailType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/service/warehouse/ApprovalWarehouseVoucherService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2125">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/service/warehouse/WarehouseAccountEntryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/service/warehouse/MovementDetailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="131" max-vertical-offset="969">
+          <caret line="40" column="15" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/util/VoucherBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="13" max-vertical-offset="2227">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/service/warehouse/MovementDetailServiceBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5671" max-vertical-offset="6800">
+          <caret line="368" column="22" selection-start-line="368" selection-start-column="22" selection-end-line="368" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/util/BigDecimalUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="47" max-vertical-offset="3655">
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/model/warehouse/Inventory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="336" max-vertical-offset="1615">
+          <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/model/finances/VoucherDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.4982374" vertical-offset="0" max-vertical-offset="3145">
+          <caret line="83" column="36" selection-start-line="83" selection-start-column="36" selection-end-line="83" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/model/warehouse/ProductItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="982" max-vertical-offset="4896">
+          <caret line="87" column="23" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/model/warehouse/InventoryDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2295">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/model/warehouse/MovementDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1955" max-vertical-offset="7191">
+          <caret line="130" column="25" selection-start-line="130" selection-start-column="25" selection-end-line="130" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/service/warehouse/WarehouseAccountEntryServiceBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="15684" max-vertical-offset="22457">
+          <caret line="969" column="73" selection-start-line="969" selection-start-column="73" selection-end-line="969" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/service/warehouse/ApprovalWarehouseVoucherServiceBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="16063" max-vertical-offset="24582">
+          <caret line="1007" column="0" selection-start-line="1007" selection-start-column="0" selection-end-line="1007" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/accounting/voucherCreate.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3063063" vertical-offset="5049" max-vertical-offset="6205">
+          <caret line="307" column="20" selection-start-line="307" selection-start-column="20" selection-end-line="307" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>EJB</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>khipus</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

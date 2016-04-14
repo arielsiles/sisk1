@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="test">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/test/thirdparty-all.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/test/hibernate-all.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/test/jboss-embedded-all.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
