@@ -4,7 +4,7 @@
     <option name="ANALYSIS_IN_BACKGROUND" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d918a0a3-72fc-482b-95ab-7c285f38506e" name="Default" comment="v1.7.9.5 Correcciones Asientos Secuencia sftmpenc sftmpdet" />
+    <list default="true" id="d918a0a3-72fc-482b-95ab-7c285f38506e" name="Default" comment="Initial Commit" />
     <list id="c1390d32-d74c-4ab2-894a-a0eab5dbc76a" name="discard" comment="" />
     <ignored path="khipus.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,11 +48,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="voucherCreate.xhtml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="voucherCreate.xhtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/accounting/voucherCreate.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3063063" vertical-offset="5049" max-vertical-offset="6205">
-              <caret line="307" column="20" selection-start-line="307" selection-start-column="20" selection-end-line="307" selection-end-column="20" />
+            <state vertical-scroll-proportion="-15.692307" vertical-offset="5253" max-vertical-offset="6205">
+              <caret line="333" column="0" selection-start-line="333" selection-start-column="0" selection-end-line="333" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="khipus.iml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/khipus.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.57347673" vertical-offset="853" max-vertical-offset="1411">
+              <caret line="69" column="50" selection-start-line="69" selection-start-column="50" selection-end-line="69" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -228,16 +238,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductInventoryAction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/action/warehouse/ProductInventoryAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="3757">
-              <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -248,6 +248,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Ariel" />
         <option value="ariel.siles@gmail.com" />
         <option value="Ariel &lt;ariel.siles@gmail.com&gt;" />
         <option value="ariel.siles@gmail.com1." />
@@ -295,6 +296,7 @@
         <option value="$PROJECT_DIR$/view/accounting/voucherCreate.xhtml" />
         <option value="$PROJECT_DIR$/src/main/com/encens/khipus/service/warehouse/ApprovalWarehouseVoucherServiceBean.java" />
         <option value="$PROJECT_DIR$/src/main/com/encens/khipus/service/warehouse/WarehouseAccountEntryServiceBean.java" />
+        <option value="$PROJECT_DIR$/src/khipus.iml" />
       </list>
     </option>
   </component>
@@ -374,6 +376,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="khipus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sisk1" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -397,7 +409,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build-prod.xml" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="268" />
@@ -1133,7 +1145,7 @@
       <workItem from="1459274557083" duration="3389000" />
       <workItem from="1459286145664" duration="19295000" />
       <workItem from="1460505563037" duration="9998000" />
-      <workItem from="1460591970007" duration="72000" />
+      <workItem from="1460591970007" duration="1528000" />
     </task>
     <task id="LOCAL-00010" summary="change price milk 3.5">
       <created>1422570200925</created>
@@ -1331,11 +1343,15 @@
       <created>1439935024600</created>
       <updated>1439935024600</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Initial Commit">
+      <created>1460593518522</created>
+      <updated>1460593518522</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2309955000" />
+    <option name="totallyTimeSpent" value="2311411000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1371,13 +1387,14 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942432" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1988273" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15778251" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15778251" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3416216" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2918919" sideWeight="0.50319827" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19567567" sideWeight="0.49946696" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41405407" sideWeight="0.49840087" order="5" side_tool="false" content_ui="tabs" x="22" y="337" width="1876" height="366" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48324326" sideWeight="0.49840087" order="5" side_tool="false" content_ui="tabs" x="22" y="337" width="1876" height="366" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3027027" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="21" y="375" width="1878" height="289" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32324323" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1673774" sideWeight="0.50159746" order="4" side_tool="true" content_ui="tabs" />
@@ -1392,7 +1409,6 @@
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19567567" sideWeight="0.49946696" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29297298" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1450,7 +1466,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Contabilizar Ordenes de Produccion" />
     <MESSAGE value="Updates INV_" />
     <MESSAGE value="Planilla Reserva Productores" />
     <MESSAGE value="1.7 Release MySql" />
@@ -1475,7 +1490,8 @@
     <MESSAGE value="v1.7.9.4 Correcciones entregas de articulos" />
     <MESSAGE value="Correcciones Asientos Secuencia sftmpenc sftmpdet" />
     <MESSAGE value="v1.7.9.5 Correcciones Asientos Secuencia sftmpenc sftmpdet" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.7.9.5 Correcciones Asientos Secuencia sftmpenc sftmpdet" />
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1546,89 +1562,13 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="true" />
     <buildFile url="file://$PROJECT_DIR$/build.xml">
-      <targetFilters>
-        <filter targetName="init" isVisible="true" />
-        <filter targetName="init-rebel" isVisible="false" />
-        <filter targetName="compile" isVisible="true" />
-        <filter targetName="copyclasses" isVisible="true" />
-        <filter targetName="jar" isVisible="true" />
-        <filter targetName="war" isVisible="true" />
-        <filter targetName="war-applet" isVisible="true" />
-        <filter targetName="ear" isVisible="true" />
-        <filter targetName="clear-profile-artifacts" isVisible="true" />
-        <filter targetName="stage" isVisible="false" />
-        <filter targetName="archive" isVisible="true" />
-        <filter targetName="datasource" isVisible="false" />
-        <filter targetName="explode" isVisible="true" />
-        <filter targetName="unexplode" isVisible="true" />
-        <filter targetName="reexplode" isVisible="true" />
-        <filter targetName="check-deployed" isVisible="true" />
-        <filter targetName="restart-exploded" isVisible="true" />
-        <filter targetName="restart-deployed" isVisible="true" />
-        <filter targetName="restart" isVisible="true" />
-        <filter targetName="deploy" isVisible="true" />
-        <filter targetName="undeploy" isVisible="true" />
-        <filter targetName="redeploy" isVisible="true" />
-        <filter targetName="clean" isVisible="true" />
-        <filter targetName="compiletest" isVisible="true" />
-        <filter targetName="copytestclasses" isVisible="true" />
-        <filter targetName="buildtest" isVisible="true" />
-        <filter targetName="test" isVisible="true" />
-        <filter targetName="javadoc" isVisible="false" />
-        <filter targetName="validateConfiguration" isVisible="false" />
-        <filter targetName="validate" isVisible="true" />
-        <filter targetName="purge" isVisible="true" />
-      </targetFilters>
-      <expanded value="true" />
+      <expanded value="false" />
     </buildFile>
     <buildFile url="file://$PROJECT_DIR$/build-prod.xml">
-      <targetFilters>
-        <filter targetName="dist" isVisible="true" />
-        <filter targetName="replacejava" isVisible="true" />
-        <filter targetName="replaceview" isVisible="true" />
-        <filter targetName="init" isVisible="true" />
-        <filter targetName="init-rebel" isVisible="false" />
-        <filter targetName="compile" isVisible="true" />
-        <filter targetName="copyclasses" isVisible="true" />
-        <filter targetName="jar" isVisible="true" />
-        <filter targetName="war" isVisible="true" />
-        <filter targetName="war-applet" isVisible="true" />
-        <filter targetName="ear" isVisible="true" />
-        <filter targetName="clear-profile-artifacts" isVisible="true" />
-        <filter targetName="stage" isVisible="false" />
-        <filter targetName="archive" isVisible="true" />
-        <filter targetName="datasource" isVisible="false" />
-        <filter targetName="explode" isVisible="true" />
-        <filter targetName="unexplode" isVisible="true" />
-        <filter targetName="reexplode" isVisible="true" />
-        <filter targetName="check-deployed" isVisible="true" />
-        <filter targetName="restart-exploded" isVisible="true" />
-        <filter targetName="restart-deployed" isVisible="true" />
-        <filter targetName="restart" isVisible="true" />
-        <filter targetName="deploy" isVisible="true" />
-        <filter targetName="undeploy" isVisible="true" />
-        <filter targetName="redeploy" isVisible="true" />
-        <filter targetName="clean" isVisible="true" />
-        <filter targetName="compiletest" isVisible="true" />
-        <filter targetName="copytestclasses" isVisible="true" />
-        <filter targetName="buildtest" isVisible="true" />
-        <filter targetName="test" isVisible="true" />
-        <filter targetName="javadoc" isVisible="false" />
-        <filter targetName="validateConfiguration" isVisible="false" />
-        <filter targetName="validate" isVisible="true" />
-        <filter targetName="purge" isVisible="true" />
-      </targetFilters>
       <expanded value="false" />
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/com/encens/khipus/model/purchases/PurchaseDocument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="470" max-vertical-offset="2805">
-          <caret line="59" column="32" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/production/reports/rawMaterialPayRollReport.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="2397">
@@ -1654,6 +1594,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="4763" max-vertical-offset="5457">
           <caret line="312" column="0" selection-start-line="312" selection-start-column="0" selection-end-line="312" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1661,6 +1602,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12948208" vertical-offset="4525" max-vertical-offset="9911">
           <caret line="299" column="27" selection-start-line="299" selection-start-column="27" selection-end-line="299" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1682,6 +1624,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="7376" max-vertical-offset="12189">
           <caret line="523" column="28" selection-start-line="523" selection-start-column="28" selection-end-line="523" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1689,6 +1632,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="44859" max-vertical-offset="66827">
           <caret line="2741" column="56" selection-start-line="2741" selection-start-column="56" selection-end-line="2741" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1696,6 +1640,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="8534">
           <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1710,6 +1655,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="1122">
           <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1745,6 +1691,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="385" max-vertical-offset="1700">
           <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1779,6 +1726,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1490" max-vertical-offset="2992">
           <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1999,8 +1947,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/accounting/voucherCreate.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3063063" vertical-offset="5049" max-vertical-offset="6205">
-          <caret line="307" column="20" selection-start-line="307" selection-start-column="20" selection-end-line="307" selection-end-column="20" />
+        <state vertical-scroll-proportion="-15.692307" vertical-offset="5253" max-vertical-offset="6205">
+          <caret line="333" column="0" selection-start-line="333" selection-start-column="0" selection-end-line="333" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/khipus.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57347673" vertical-offset="853" max-vertical-offset="1411">
+          <caret line="69" column="50" selection-start-line="69" selection-start-column="50" selection-end-line="69" selection-end-column="50" />
           <folding />
         </state>
       </provider>
