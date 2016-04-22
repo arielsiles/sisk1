@@ -3,7 +3,6 @@ package com.encens.khipus.model.finances;
 import com.encens.khipus.model.BaseModel;
 import com.encens.khipus.model.CompanyNumberListener;
 import com.encens.khipus.model.UpperCaseStringListener;
-import com.encens.khipus.model.customers.ClientePedido;
 import com.encens.khipus.util.Constants;
 import org.hibernate.annotations.Parameter;
 import org.hibernate.annotations.Type;

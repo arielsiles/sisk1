@@ -135,7 +135,7 @@
             <s:fragment id="soldProductInformationPanel" rendered="#{productDeliveryAction.ventaDirecta != null}">
                 <s:decorate id="namesField" template="/include/inputField.xhtml" styleClass="formRow">
                     <ui:define name="label">#{messages['SoldProduct.names']}</ui:define>
-                    <h:outputText value="#{productDeliveryAction.ventaDirecta.cliente.nom}"/>
+                    <h:outputText value="#{productDeliveryAction.ventaDirecta.cliente.name}"/>
                 </s:decorate>
                 <s:decorate id="firstNameField" template="/include/inputField.xhtml" styleClass="formRow">
                     <ui:define name="label">#{messages['SoldProduct.firstName']}</ui:define>

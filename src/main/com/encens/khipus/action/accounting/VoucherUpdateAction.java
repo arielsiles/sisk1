@@ -4,6 +4,7 @@ import com.encens.khipus.action.purchases.PurchaseDocumentAction;
 import com.encens.khipus.framework.action.GenericAction;
 import com.encens.khipus.framework.action.Outcome;
 import com.encens.khipus.model.accounting.DocType;
+import com.encens.khipus.model.customers.Client;
 import com.encens.khipus.model.finances.*;
 import com.encens.khipus.model.purchases.PurchaseDocument;
 import com.encens.khipus.service.accouting.VoucherAccoutingService;
@@ -40,6 +41,10 @@ public class VoucherUpdateAction extends GenericAction<Voucher> {
 
     private BigDecimal totalDebit = new BigDecimal("0.00");
     private BigDecimal totalCredit = new BigDecimal("0.00");
+
+    private Provider provider;
+    private CashAccount account;
+    private Client client;
 
     @In
     private VoucherAccoutingService voucherAccoutingService;
@@ -93,6 +98,7 @@ public class VoucherUpdateAction extends GenericAction<Voucher> {
 
             voucherAccoutingService.updateVoucher(voucher);
 
+            facesMessages.addFromResourceBundle(StatusMessage.Severity.INFO,"Voucher.message.updated");
             return Outcome.SUCCESS;
 
         } catch (Exception e) {
@@ -133,6 +139,29 @@ public class VoucherUpdateAction extends GenericAction<Voucher> {
         System.out.println("... ... ... Add Voucher Detail: " + cashAccount.getFullName());
     }
 
+    public void assignInputVoucherDetail(){
+        try {
+            VoucherDetail voucherDetail = new VoucherDetail();
+            voucherDetail.setCashAccount(this.getAccount());
+            voucherDetail.setAccount(this.getAccount().getAccountCode());
+            voucherDetail.setClient(this.getClient());
+            voucherDetail.setProvider(this.getProvider());
+
+            voucherDetail.setDebit(this.debit);
+            voucherDetail.setCredit(this.credit);
+
+            voucherDetails.add(voucherDetail);
+            clearAccount();
+            clearClient();
+            clearProvider();
+            setDebit(new BigDecimal("0.00"));
+            setCredit(new BigDecimal("0.00"));
+        }catch (NullPointerException e){
+            facesMessages.addFromResourceBundle(StatusMessage.Severity.INFO,"Los valores del asiento son incompletos");
+        }
+
+    }
+
     public void removeVoucherDetail(VoucherDetail voucherDetail) {
         System.out.println("---> " + voucherDetail.getCashAccount().getDescription() + " - " + voucherDetail.getDebit() + " - " + voucherDetail.getCredit());
         voucherDetails.remove(voucherDetail);
@@ -147,8 +176,9 @@ public class VoucherUpdateAction extends GenericAction<Voucher> {
     }
 
     public void assignProvider(Provider provider) {
-        getInstance().setProvider(provider);
-        this.voucher.setProvider(provider);
+        /*getInstance().setProvider(provider);
+        this.voucher.setProvider(provider);*/
+        setProvider(provider);
     }
 
     /* todo */
@@ -292,5 +322,41 @@ public class VoucherUpdateAction extends GenericAction<Voucher> {
 
     public void setTotalCredit(BigDecimal totalCredit) {
         this.totalCredit = totalCredit;
+    }
+
+    public CashAccount getAccount() {
+        return account;
+    }
+
+    public void setAccount(CashAccount account) {
+        this.account = account;
+    }
+
+    public Client getClient() {
+        return client;
+    }
+
+    public void setClient(Client client) {
+        this.client = client;
+    }
+
+    public Provider getProvider() {
+        return provider;
+    }
+
+    public void setProvider(Provider provider) {
+        this.provider = provider;
+    }
+
+    public void clearAccount() {
+        setAccount(null);
+    }
+
+    public void clearClient(){
+        setClient(null);
+    }
+
+    public void clearProvider(){
+        setProvider(null);
     }
 }

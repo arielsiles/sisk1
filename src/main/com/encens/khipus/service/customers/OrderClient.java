@@ -1,6 +1,6 @@
 package com.encens.khipus.service.customers;
 
-import com.encens.khipus.model.customers.ClientePedido;
+import com.encens.khipus.model.customers.Client;
 
 import java.math.BigDecimal;
 
@@ -17,7 +17,7 @@ public class OrderClient
     private String type;
     private BigDecimal idDistributor;
     private String state;
-    private ClientePedido cliente;
+    private Client cliente;
     private Boolean stockFlag;
 
     public String getIdOrder() {
@@ -76,11 +76,11 @@ public class OrderClient
         this.state = state;
     }
 
-    public ClientePedido getCliente() {
+    public Client getCliente() {
         return cliente;
     }
 
-    public void setCliente(ClientePedido cliente) {
+    public void setCliente(Client cliente) {
         this.cliente = cliente;
     }
 

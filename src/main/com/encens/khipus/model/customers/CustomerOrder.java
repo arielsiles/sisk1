@@ -86,7 +86,7 @@ public class CustomerOrder implements BaseModel  {
 
     @JoinColumn(name = "IDCLIENTE", referencedColumnName = "IDPERSONACLIENTE")
     @ManyToOne(optional = false)
-    private ClientePedido cliente;
+    private Client cliente;
 
     public Long getIdpedidos() {
         return idpedidos;
@@ -241,11 +241,11 @@ public class CustomerOrder implements BaseModel  {
         this.codigo = codigo;
     }
 
-    public ClientePedido getCliente() {
+    public Client getCliente() {
         return cliente;
     }
 
-    public void setCliente(ClientePedido cliente) {
+    public void setCliente(Client cliente) {
         this.cliente = cliente;
     }
 

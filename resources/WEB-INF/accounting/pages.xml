@@ -34,6 +34,11 @@
     </page>
 
     <page view-id="/accounting/voucherUpdate.xhtml" no-conversation-view-id="/accounting/voucherList.xhtml">
+        <navigation from-action="#{voucherUpdateAction.cancel}">
+            <rule>
+                <redirect view-id="/accounting/voucherList.xhtml"/>
+            </rule>
+        </navigation>
         <navigation from-action="#{voucherUpdateAction.approveVoucher}">
             <rule if-outcome="Approved">
                 <redirect view-id="/accounting/voucherUpdate.xhtml"/>
@@ -41,6 +46,12 @@
         </navigation>
         <navigation from-action="#{voucherUpdateAction.annulVoucher}">
             <rule if-outcome="Annul">
+                <redirect view-id="/accounting/voucherUpdate.xhtml"/>
+            </rule>
+        </navigation>
+        <navigation from-action="#{voucherUpdateAction.update}">
+            <rule if-outcome="Success">
+                <begin-conversation flush-mode="MANUAL"/>
                 <redirect view-id="/accounting/voucherUpdate.xhtml"/>
             </rule>
         </navigation>

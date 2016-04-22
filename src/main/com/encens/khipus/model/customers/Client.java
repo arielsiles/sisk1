@@ -5,9 +5,7 @@ import com.encens.khipus.util.Constants;
 import org.apache.commons.lang.StringUtils;
 
 import javax.persistence.*;
-import javax.xml.bind.annotation.XmlTransient;
 import java.io.Serializable;
-import java.util.Collection;
 import java.util.Date;
 
 /**
@@ -18,56 +16,80 @@ import java.util.Date;
  * To change this template use File | Settings | File Templates.
  */
 
+@NamedQueries(
+        {
+                @NamedQuery(name = "Client.findAll", query = "select c from Client c")
+        }
+)
+
+
 @Entity
 @Table(name = "personacliente",schema = Constants.CASHBOX_SCHEMA)
-public class ClientePedido implements Serializable {
+public class Client implements Serializable, BaseModel {
 
     @Id
     @Column(name = "IDPERSONACLIENTE")
-    private Long piId;
+    private Long id;
+
     @Column(name = "NRO_DOC")
     private String nroDoc;
+
     @Column(name = "AP")
     private String ap = "";
+
     @Column(name = "AM")
     private String am = "";
+
     @Column(name = "NOM")
-    private String nom = "";
+    private String name = "";
+
     @Column(name = "SEXO")
     private String sexo;
+
     @Column(name = "EST_CIVIL")
     private String estCivil;
+
     @Column(name = "FECHA_NAC")
     @Temporal(TemporalType.DATE)
     private Date fechaNac;
+
     @Column(name = "CEM_COD")
     private String cemCod;
+
     @Column(name = "OCU_COD")
     private String ocuCod;
+
     @Column(name = "TDO_COD")
     private String tdoCod;
+
     @Column(name = "SIS_COD")
     private String sisCod;
+
     @Column(name = "DIRECCION")
     private String direccion;
+
     @Column(name = "NIT")
     private String nit;
+
     @Column(name = "RAZONSOCIAL")
     private String razonsocial = "";
+
     @Column(name = "PORCENTAJECOMISION")
     private Double porcentajeComision = 0.0;
+
     @Column(name = "CODIGOCLIENTE")
     private String codigo;
+
     @JoinColumn(name = "IDTERRITORIOTRABAJO", referencedColumnName = "IDTERRITORIOTRABAJO")
     @ManyToOne
     private Territoriotrabajo territoriotrabajo;
 
-    public Long getPiId() {
-        return piId;
+    public Long getId() {
+        return id;
     }
 
-    public void setPiId(Long piId) {
-        this.piId = piId;
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getNroDoc() {
@@ -94,12 +116,12 @@ public class ClientePedido implements Serializable {
         this.am = am;
     }
 
-    public String getNom() {
-        return nom;
+    public String getName() {
+        return name;
     }
 
-    public void setNom(String nom) {
-        this.nom = nom;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getSexo() {
@@ -202,12 +224,16 @@ public class ClientePedido implements Serializable {
     }
 
     public String getNombreCompleto(){
-        if(this.piId == null)
+        if(this.id == null)
             return "";
         if(StringUtils.isEmpty(razonsocial))
-            return nom+" "+ap+" "+am;
+            return name +" "+ap+" "+am;
         else
             return razonsocial;
+    }
+
+    public String getFullName(){
+        return getName() + " " + getAp() + " " + getAm();
     }
 
     public Territoriotrabajo getTerritoriotrabajo() {

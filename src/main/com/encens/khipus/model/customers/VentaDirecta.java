@@ -58,7 +58,7 @@ public class VentaDirecta implements BaseModel  {
 
     @JoinColumn(name = "IDCLIENTE", referencedColumnName = "IDPERSONACLIENTE")
     @ManyToOne(optional = false)
-    private ClientePedido cliente;
+    private Client cliente;
 
     public Long getIdventadirecta() {
         return idventadirecta;
@@ -149,11 +149,11 @@ public class VentaDirecta implements BaseModel  {
         this.codigo = codigo;
     }
 
-    public ClientePedido getCliente() {
+    public Client getCliente() {
         return cliente;
     }
 
-    public void setCliente(ClientePedido cliente) {
+    public void setCliente(Client cliente) {
         this.cliente = cliente;
     }
 

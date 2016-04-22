@@ -2,7 +2,7 @@ package com.encens.khipus.model.finances;
 
 import com.encens.khipus.model.BaseModel;
 import com.encens.khipus.model.UpperCaseStringListener;
-import com.encens.khipus.model.customers.ClientePedido;
+import com.encens.khipus.model.customers.Client;
 import com.encens.khipus.util.Constants;
 import org.hibernate.validator.Length;
 
@@ -84,20 +84,23 @@ public class VoucherDetail implements BaseModel {
     private CashAccount cashAccount;
 
 
+    @Transient
+    private String payableAccountFullName;
+
+    @Transient
+    private String clientFullName;
+
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "IDPERSONACLIENTE", referencedColumnName = "IDPERSONACLIENTE")
-    private ClientePedido customer;
+    private Client client;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumns({
-            @JoinColumn(name = "NO_CIA", updatable = false, insertable = false),
-            @JoinColumn(name = "COD_PROV", updatable = false, insertable = false)
-    })
+    @JoinColumn(name = "COD_PROV", referencedColumnName = "COD_PROV")
     private Provider provider;
 
-    @Column(name = "COD_PROV", length = 6)
+    /*@Column(name = "COD_PROV", length = 6)
     @Length(max = 6)
-    private String providerCode;
+    private String providerCode;*/
 
     public VoucherDetail(String businessUnitCode, String costCenterCode, String account,
                          BigDecimal debit, BigDecimal credit, FinancesCurrencyType currency, BigDecimal exchangeAmount) {
@@ -231,12 +234,14 @@ public class VoucherDetail implements BaseModel {
         this.gloss = gloss;
     }
 
-    public ClientePedido getCustomer() {
-        return customer;
+    public Client getClient() {
+        System.out.println("Get Cliente: " + client);
+        return client;
     }
 
-    public void setCustomer(ClientePedido customer) {
-        this.customer = customer;
+    public void setClient(Client client) {
+        System.out.println("Set Cliente: " + client);
+        this.client = client;
     }
 
     public Provider getProvider() {
@@ -247,11 +252,55 @@ public class VoucherDetail implements BaseModel {
         this.provider = provider;
     }
 
-    public String getProviderCode() {
+    /*public String getProviderCode() {
         return providerCode;
     }
 
     public void setProviderCode(String providerCode) {
         this.providerCode = providerCode;
+    }*/
+
+    public String getAuxiliaryClient(){
+        String result = "";
+
+        if (client != null)
+            result = client.getName();
+
+        return  result;
+    }
+
+    public String getFullCashAccount(){
+
+        String result = this.cashAccount.getFullName();
+
+        if (client != null)
+            result = result + " (" + client.getFullName() + ")";
+        if (provider != null)
+            result = result + " (" +  provider.getFullName() + ")";
+
+        return result;
+
+    }
+
+    public String getPayableAccountFullName() {
+        if (payableAccountFullName == null && getAccount() != null) {
+            payableAccountFullName = getCashAccount().getFullName();
+        }
+        return payableAccountFullName;
+    }
+
+    public void setPayableAccountFullName(String payableAccountFullName) {
+        this.payableAccountFullName = payableAccountFullName;
+    }
+
+    public String getClientFullName() {
+        if (clientFullName == null && getClient() != null) {
+            clientFullName = getClient().getFullName();
+        }
+        return clientFullName;
+    }
+
+    public void setClientFullName(String clientFullName) {
+        this.clientFullName = clientFullName;
     }
 }

@@ -3,11 +3,13 @@ package com.encens.khipus.action.accounting;
 import com.encens.khipus.framework.action.GenericAction;
 import com.encens.khipus.framework.action.Outcome;
 import com.encens.khipus.model.accounting.DocType;
+import com.encens.khipus.model.customers.Client;
 import com.encens.khipus.model.finances.CashAccount;
 import com.encens.khipus.model.finances.Provider;
 import com.encens.khipus.model.finances.Voucher;
 import com.encens.khipus.model.finances.VoucherDetail;
 import com.encens.khipus.service.accouting.VoucherAccoutingService;
+import com.encens.khipus.service.customers.ClientService;
 import com.encens.khipus.service.finances.VoucherService;
 import org.jboss.seam.ScopeType;
 import org.jboss.seam.annotations.End;
@@ -18,6 +20,7 @@ import org.jboss.seam.international.StatusMessage;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -29,19 +32,26 @@ import java.util.List;
 public class VoucherCreateAction extends GenericAction<Voucher> {
 
     CashAccount cashAccount = null;
-    private BigDecimal debit;
-    private BigDecimal credit;
+
+    private BigDecimal debit = new BigDecimal("0.00");
+    private BigDecimal credit = new BigDecimal("0.00");
     private String documentTypeCode = "";
 
     private DocType docType = new DocType();
     private Voucher voucher = new Voucher();
+
     private Provider provider;
+    private CashAccount account;
+    private Client client;
 
     private List<VoucherDetail> voucherDetails = new ArrayList<VoucherDetail>();
     private List<CashAccount> cashAccounts = new ArrayList<CashAccount>();
 
     private BigDecimal totalDebit = new BigDecimal("0.00");
     private BigDecimal totalCredit = new BigDecimal("0.00");
+
+    private String clientFullName;
+    private String providerFullName;
 
     @In
     private VoucherAccoutingService voucherAccoutingService;
@@ -52,13 +62,19 @@ public class VoucherCreateAction extends GenericAction<Voucher> {
     @In(create = true)
     private VoucherUpdateAction voucherUpdateAction;
 
+    @In(create = true)
+    private VoucherDetailAction voucherDetailAction;
+
+    @In
+    private ClientService clientService;
+
     @Override
     @End
     public String create() {
 
         voucher.setDocumentType(docType.getName());
         voucher.setDetails(voucherDetails);
-        voucher.setProvider(provider);
+
         BigDecimal totalD = new BigDecimal("0.00");
         BigDecimal totalC = new BigDecimal("0.00");
         try {
@@ -91,12 +107,51 @@ public class VoucherCreateAction extends GenericAction<Voucher> {
         }
     }
 
+    public List<Client> autocomplete(Object suggest){
+        String pref = (String)suggest;
+        ArrayList<Client> result = new ArrayList<Client>();
+        Iterator<Client> iterator = clientService.getAllClients().iterator();
+
+        while (iterator.hasNext()) {
+            Client elem = ((Client) iterator.next());
+            if ((elem.getName() != null && elem.getName().toLowerCase().indexOf(pref.toLowerCase()) == 0) || "".equals(pref))
+            {
+                result.add(elem);
+            }
+        }
+        return result;
+    }
+
     public void assignVoucherDetail(CashAccount cashAccount){
         VoucherDetail voucherDetail = new VoucherDetail();
         voucherDetail.setCashAccount(cashAccount);
         voucherDetail.setAccount(cashAccount.getAccountCode());
         voucherDetails.add(voucherDetail);
     }
+
+    public void assignInputVoucherDetail(){
+        try {
+            VoucherDetail voucherDetail = new VoucherDetail();
+            voucherDetail.setCashAccount(this.account);
+            voucherDetail.setAccount(this.account.getAccountCode());
+            voucherDetail.setClient(this.client);
+            voucherDetail.setProvider(this.provider);
+
+            voucherDetail.setDebit(this.debit);
+            voucherDetail.setCredit(this.credit);
+
+            voucherDetails.add(voucherDetail);
+            clearAccount();
+            clearClient();
+            clearProvider();
+            setDebit(new BigDecimal("0.00"));
+            setCredit(new BigDecimal("0.00"));
+        }catch (NullPointerException e){
+            facesMessages.addFromResourceBundle(StatusMessage.Severity.WARN,"Voucher.message.incomplete");
+        }
+
+    }
+
 
     public void removeVoucherDetail(VoucherDetail voucherDetail) {
         System.out.println("---> " + voucherDetail.getCashAccount().getDescription() + " - " + voucherDetail.getDebit() + " - " + voucherDetail.getCredit());
@@ -105,6 +160,12 @@ public class VoucherCreateAction extends GenericAction<Voucher> {
 
     public void assignProvider(Provider provider) {
         setProvider(provider);
+    }
+
+    public void assignProvider(Provider provider, int rowIndex) {
+
+        System.out.println("Provider: " + rowIndex + " - " + provider.getFullName());
+        //setProvider(provider);
     }
 
     /* todo */
@@ -224,5 +285,62 @@ public class VoucherCreateAction extends GenericAction<Voucher> {
 
     public void setProvider(Provider provider) {
         this.provider = provider;
+    }
+
+    public Client getClient() {
+        System.out.println("Get Client");
+        return client;
+    }
+
+    public void setClient(Client client) {
+        System.out.println("Set Client");
+        this.client = client;
+    }
+
+    public void assignData(){
+        System.out.println("---> assignData . . . . " + voucherDetailAction.getInstance().getClientFullName());
+        //System.out.println("---> assignData client... " + client);
+    }
+
+    public void printData(){
+        System.out.println("-> CLIENTE : " + client);
+        System.out.println("-> PROVEEDOR : " + provider);
+        System.out.println("-> ACCOUNT : " + account);
+    }
+
+    public CashAccount getAccount() {
+        return account;
+    }
+
+    public void setAccount(CashAccount account) {
+        this.account = account;
+    }
+
+    public String getClientFullName() {
+        return clientFullName;
+    }
+
+    public void setClientFullName(String clientFullName) {
+        this.clientFullName = clientFullName;
+    }
+
+    public String getProviderFullName() {
+        return providerFullName;
+    }
+
+    public void setProviderFullName(String providerFullName) {
+        this.providerFullName = providerFullName;
+    }
+
+    public void clearAccount() {
+        setAccount(null);
+    }
+
+    public void clearClient(){
+        setClient(null);
+    }
+
+    public void clearProvider(){
+        setProvider(null);
     }
 }

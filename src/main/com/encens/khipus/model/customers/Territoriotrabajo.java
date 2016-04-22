@@ -27,10 +27,10 @@ public class Territoriotrabajo implements Serializable {
     @Column(name = "DESCRIPCION")
     private String descripcion;
     @OneToMany(mappedBy = "territoriotrabajo")
-    private Collection<ClientePedido> clientes;
+    private Collection<Client> clientes;
     @JoinColumn(name = "IDDISTRIBUIDOR", referencedColumnName = "IDPERSONACLIENTE")
     @ManyToOne
-    private ClientePedido distribuidor;
+    private Client distribuidor;
 
     public Territoriotrabajo() {
     }
